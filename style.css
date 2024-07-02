@@ -1,0 +1,73 @@
+body{
+    background-color: blue
+}
+header{
+    background-color: rgb(255, 0, 0);
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h2{
+    color: rgb(0, 0, 0);
+
+}
+.pagina1{
+    text-align: center;
+    overflow: auto;
+}
+#pinhao1{
+    border: 10px solid rgb(102, 32, 0);
+    display: block;
+    float: left;    /* Faz a imagem flutuar para a esquerda */
+    margin-right: 100px; /* Margem à direita para separar a imagem da lista */
+    width: 20%; /*tamanho da imagem*/
+}
+
+.header {
+    height: 150px; /* Altura desejada para o seu cabeçalho */
+    position: relative; /* Define a posição do elemento pai para permitir posicionamento absoluto do filho (a imagem) */
+}
+
+.header img {
+    width: auto; /* Garante que a largura da imagem seja ajustada automaticamente */
+    height: 93%; /* Define a altura da imagem como 100% em relação à altura do cabeçalho */
+    position: absolute; /* Posiciona a imagem de forma absoluta dentro do cabeçalho */
+    top: 0; /* Alinha a parte superior da imagem com a parte superior do cabeçalho */
+    left: 0; /* Alinha a parte esquerda da imagem com a parte esquerda do cabeçalho */
+    object-fit: cover; /* Ajusta o tamanho da imagem para cobrir completamente o espaço disponível */
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+.titulo1{
+    background: cornsilk;
+}
+.titulo2{
+    background: rgb(0, 153, 255);
+
+}
+#Vaca{
+    border: 10px solid black;
+    width: 20%;
+}
+#pinhao1{
+    border: 10px solid black;
+    object-fit: cover;
+}
+#cavalo{
+    border:10px solid black;
+    width: 20%;
+}
+#ovelha{
+    border: 20px solid black;
+}
